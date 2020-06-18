@@ -1,0 +1,21 @@
+main {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000000 100%),
+    url("./background.jpg");
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  h1 {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
+.buffer {
+  height: 100vh;
+  z-index: 5;
+}
