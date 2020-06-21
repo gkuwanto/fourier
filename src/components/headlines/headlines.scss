@@ -1,0 +1,45 @@
+.headline {
+  display: flex;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+  .headline-card {
+    display: flex;
+    padding: 30px;
+    background-color: lightgray;
+    color: black;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    img {
+      width: 60%;
+    }
+    .headline-title {
+      padding-left: 30px;
+      font-size: 2.5rem;
+      text-align: left;
+    }
+    .headline-summary {
+      font-size: 1.25rem;
+      padding: 0 20px 20px 20px;
+      text-align: left;
+    }
+    a {
+      float: right;
+      margin-right: 50px;
+      text-decoration: none;
+      color: #9e00ff;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.headline-card {
+  visibility: hidden;
+  display: none;
+}
+.active {
+  visibility: visible;
+  display: block;
+}

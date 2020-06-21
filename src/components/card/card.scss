@@ -3,10 +3,10 @@
   height: 400px;
   display: flex;
   img {
-    margin: 40px;
+    overflow: hidden;
   }
   .overlay {
-    opacity: 0.5;
+    opacity: 0.2;
   }
   h3 {
     position: absolute;
